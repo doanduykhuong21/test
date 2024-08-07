@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    margin: auto;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+section{
+    padding: 0px 100px;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(250, 244, 244);
+
+}
+footer{
+    height: 10%;
+    clear: both;
+    text-align: center;
+    background-color: rgb(175, 174, 174);
+    font-weight: bold;
+    padding: 5px;
+}
+.button{
+    height: 15px;
+    width: 15px;
+}
+.search input{
+width: 900px;
+height: 35px;
+margin-left: 100px;
+}
+.search button{
+    width: 35px;
+    height: 35px;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(175, 174, 174);
+    padding: 16px;
+}
+nav a{
+    color: white;
+    margin-right: 10px;
+}
+aside{
+    width: 18%;
+}
+aside h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.as_ct{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+:hover.as_ct{
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
+.as1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: white;
+}
+.list_section{
+    width: 82%;
+    /* border: solid; */
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.d-flex{
+    display: flex;
+}
+.sec1{
+    /* border: solid; */
+    text-align: center;
+    background-color: white;
+}
+:hover.sec1{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.list_section{
+    color: black;
+}
+
+/*------------------------------------------ admin_sp,cty---------------------------------------------- */
+.list_section_adSP{
+    width: 82%;
+    padding-left: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.list_section_adSP tr td{
+    border: solid gray;
+    text-align: center;
+    width: 170px;
+    background-color: white;
+    height: 100px;
+}
+.list_section_adSP th{
+    border: 2px solid;
+    height: 50px;
+    background-color: gray;
+}
+.as1_ad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    background-color: white;
+    height: 300px;
+    justify-content: center;
+}
+.as1_ql{
+    text-align: center;
+    padding: 5px;
+    color: gray;
+}
+:hover.as1_ql{
+    background-color: rgb(197, 197, 197);
+    color: black;
+}
+/* ---------------------------add sp---------------------------- */
+.list_add{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    width: 92%;
+}
+.list_add td{
+    border: 1px solid;
+    height: 30px;
+    width: 180px;
+    text-align: center;
+}
+.list_add input{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.list_add button{
+    width: 30%;
+    height: 20%;
+    float: right;
+    margin-left: 10px;
+}
+.add{
+    background-color: rgb(22, 190, 134);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.rs{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
